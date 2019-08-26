@@ -9,5 +9,6 @@ class Anagram
     array.select do |words|
       (@word.split("").sort == words.split("").sort)
     end 
+  end 
 end 
       
